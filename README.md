@@ -2,8 +2,11 @@
 Simulation de l'évolution de deux populations et leurs interactions
 
 ####################################################################
+
 Camille LE CORRE
+
 Lucas AUCLAIR
+
 Nikita VERSHYNIN
 
 LDD BI 1

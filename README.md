@@ -37,3 +37,17 @@ Les populations évoluent dans une prairie, représentée par une grille. Chaque
 Les proies et les prédateurs se déplacent aléatoirement dans les 8 directions sur la grille de la simulation (pour ceux se situant au milieu de la grille). Les proies ne peuvent pas aller sur une case déjà occupée par une autre proie. Cependant, si toutes les cases entourant une proie sont occupées, celle-ci ne peut pas se déplacer et reste donc fixe. Un cas typique de cette situation est si il y a une surpopulation des proies. Il en est de même pour les prédateurs.
 Une proie et un prédateur peuvent se retrouver sur la même case. Dans ce cas-ci, le prédateur mange la proie.
 
+
+## Apparition et reproduction des animaux sur la grille
+
+Au début de la simulation des proies et des prédateurs apparaissent aléatoirement sur la grille.
+Lorsque plusieurs individus de la même classe (proie ou prédateur) sont côte-à-côte sur la grille, un nouvel individu apparaît à proximité de ceux-ci (il faut aussi qu'une case soit libre pour la naissance du nouvel animal). Il s'agit de la reproduction et de la naissance d'un nouvel individu. Néanmoins, on rappelle qu'un prédateur doit avoir une certaine quantité d'énergie afin de se reproduire. Ce n'est pas le cas pour les proies.
+
+
+## Interface graphique
+
+Les cases de la grille prennent des couleurs différentes en fonction de leur nature. La couleur verte représente le décor de la simulation, la couleur orange représente les prédateurs (les renards) et le beige représente les proies (les lapins).
+
+Le bouton "Sauvegarder" enregistre la configuration de la matrice correspondante à la simulation au format binaire avec la librairie pickle et le bouton "Charger" lit ce fichier et met à jour la configuration de la matrice par rapport à celle qui est enregistrée.
+Le bouton "Réinitialiser" réinitialise la simulation à partir de nouvelles variables aléatoires et le bouton "Fermer" ferme la fenêtre du programme.
+Quant au bouton "Démarrer/relancer la simulation", il lance le programme de la simulation et affiche la grille. Si la simulation était en pause, alors celui-ci la relance.

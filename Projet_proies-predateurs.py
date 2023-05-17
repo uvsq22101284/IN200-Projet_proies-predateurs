@@ -1,14 +1,11 @@
 #############################################################################
-# groupe LDDBI L1
+# LDD BI 1
 # Lucas AUCLAIR
 # Camille LE CORRE
 # Nikita VERSHYNIN
 
-# Simul 
-# Projet informatique destiné à la création d'un système
-# simulant la cohabitation de deux types de populations
-# # différentes : des proies et des prédateurs.
-
+# Simulation de l'évolution de deux populations et leurs interactions
+#############################################################################
 
 
 ############################################
